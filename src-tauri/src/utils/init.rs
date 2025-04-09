@@ -16,7 +16,7 @@ pub async fn resolve_setup(app: &mut App) -> Result<(), Error> {
         .unwrap();
 
     // 是否记录窗口位置和大小
-    if true {
+    if false {
         // 获取记录窗口大小
         let store = app.store("app_data.json").unwrap();
 
