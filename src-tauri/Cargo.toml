@@ -1,6 +1,6 @@
 [package]
 name = "XiaoPalu"
-version = "1.1.0"
+version = "1.2.0"
 description = "小帕鲁安安心心学运维知识！"
 authors = ["1024xiaoshen"]
 edition = "2021"
