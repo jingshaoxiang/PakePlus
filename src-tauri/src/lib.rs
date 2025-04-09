@@ -27,10 +27,6 @@ pub fn run() {
             menu
         })
         .plugin(tauri_plugin_opener::init())
-            .plugin(tauri_plugin_single_instance::init(|app, _, _| {
-                utils::init::show_window(app);
-            }))
-            
         .plugin(tauri_plugin_store::Builder::default().build())
         .setup(|app| {
             tauri::async_runtime::block_on(async move {
